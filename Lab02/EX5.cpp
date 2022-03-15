@@ -23,7 +23,7 @@ void foo(int dz[], int* x, int* y)
 
 		if (dz[i] > max1) {
 			max2 = max1;
-			&max1 = dz[i];
+			max1 = dz[i];
 		}
 
 		else if (dz[i] > max2 && dz[i] != max1) {
